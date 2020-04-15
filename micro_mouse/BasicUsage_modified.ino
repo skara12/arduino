@@ -24,6 +24,7 @@ void loop() {
     MouseTo.setTarget(0, 0);
     while (MouseTo.move() == false) {}
     delay(1000);
+  //Modify according to Screensize
     MouseTo.setTarget(200, 0);
     while (MouseTo.move() == false) {}
     delay(1000);
